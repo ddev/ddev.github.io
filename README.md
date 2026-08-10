@@ -10,4 +10,5 @@ Without this repo, opening `https://ddev.github.io/` returns a 404. This page li
 - [Coder DDEV](https://ddev.github.io/coder-ddev/)
 - [Documentation (stable)](https://ddev.github.io/ddev/en/stable/) - backup mirror of [docs.ddev.com](https://docs.ddev.com)
 - [Documentation (latest)](https://ddev.github.io/ddev/en/latest/)
+- [Performance History](https://ddev.github.io/ddev/perf/) - nightly benchmark results
 - [Sponsorship Data](https://ddev.github.io/sponsorship-data/)
