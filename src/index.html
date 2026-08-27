@@ -154,11 +154,19 @@
     <tr><th>URL</th><th style="width:50%">Description</th></tr>
     <tr>
       <td><a href="https://ddev.github.io/ddev/perf/">ddev.github.io/ddev/perf/</a></td>
-      <td>Nightly benchmark results across platforms, architectures, and Docker providers</td>
+      <td>Nightly trends for <code>ddev start</code>, <code>ddev utility rebuild</code>, Mutagen sync, and Drupal install time, across every macOS/Linux/Windows Docker provider DDEV supports</td>
     </tr>
     <tr>
       <td><a href="https://ddev.github.io/ddev/perf/ci/">ddev.github.io/ddev/perf/ci/</a></td>
-      <td>Internal CI build-time trends for the ddev/ddev test suite, for maintainers working on test infrastructure</td>
+      <td>Total CI runtime per workflow (GitHub Actions and Buildkite) for the ddev/ddev test suite, for maintainers working on test infrastructure</td>
+    </tr>
+    <tr>
+      <td><a href="https://ddev.github.io/ddev/perf/ci/tests/">ddev.github.io/ddev/perf/ci/tests/</a></td>
+      <td>Per-test duration trends for individual slow or flaky Go tests in the ddev/ddev suite</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/ddev/ddev/actions/workflows/perf-start-time.yml">Start-time performance check</a></td>
+      <td>Per-PR regression gate for <code>ddev start</code>/<code>ddev utility rebuild</code>: times the PR's commit against a baseline on the same runner and posts the comparison to that run's summary. Runs on PRs touching build-layer files, plus nightly. No dashboard yet - see each run's summary for numbers</td>
     </tr>
   </table>
 
