@@ -11,4 +11,7 @@ Without this repo, opening `https://ddev.github.io/` returns a 404. This page li
 - [Documentation (stable)](https://ddev.github.io/ddev/en/stable/) - backup mirror of [docs.ddev.com](https://docs.ddev.com)
 - [Documentation (latest)](https://ddev.github.io/ddev/en/latest/)
 - [Performance History](https://ddev.github.io/ddev/perf/) - nightly benchmark results
+- [CI Test-Runtime Trends](https://ddev.github.io/ddev/perf/ci/) - CI workflow duration trends
+- [Per-Test Trends](https://ddev.github.io/ddev/perf/ci/tests/) - slow/flaky Go test duration trends
+- [Start-Time Performance Check](https://github.com/ddev/ddev/actions/workflows/perf-start-time.yml) - per-PR `ddev start`/`ddev utility rebuild` regression gate
 - [Sponsorship Data](https://ddev.github.io/sponsorship-data/)
